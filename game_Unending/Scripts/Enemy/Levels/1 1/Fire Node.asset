@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700267d909e13054697d1cfa7129d4bb, type: 3}
+  m_Name: Fire Node
+  m_EditorClassIdentifier: 
+  nodeState: 2
+  childNodes: []
+  fireRate: 0.5
+  aimRange: 10
+  bulletLifeSpan: 1
+  bulletSpeed: 6000
+  bulletDamage: 0.1
+  bulletSetSize: {x: 2, y: 2, z: 8}

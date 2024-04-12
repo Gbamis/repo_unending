@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e616dbdc96d2b4a99f3de9962e2a92, type: 3}
+  m_Name: xon_01_property
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: f48061541b1ee14408234a5a247664cf, type: 3}
+  thumbnail: {fileID: 21300000, guid: 8cb838164422d22469bfef3dfe4cf91d, type: 3}
+  JetName: A.X Romeo
+  flightDetails:
+    checker: 1
+    maxSpeed: 160
+    flySpeed: 446
+    oldSpeed: 0
+    steering: 80
+    steerAngle: 25
+    acceleration: 3
+    maxHealth: 90
+    isShieldUse: 0
+  weaponDetails: {fileID: 11400000, guid: 75ed75ae4429f654ca14680416d57ec0, type: 2}
+  refillDetails:
+    nitro:
+      refilRate: 0.1
+      useRate: 0.001
+      currentAmount: 1
+      multiplier: 120
+      canUse: 0
+      image: {fileID: 0}
+    shield:
+      refilRate: 0.3
+      useRate: 0.017
+      currentAmount: 1
+      multiplier: 0
+      canUse: 0
+      image: {fileID: 0}
+    attractor:
+      refilRate: 0.35
+      useRate: 0.04
+      currentAmount: 1
+      multiplier: 0
+      canUse: 0
+      image: {fileID: 0}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826956946050",
+    "project_id": "duelit-cdbc6",
+    "storage_bucket": "duelit-cdbc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826956946050:android:2f3fb0a698af3dfff9729b",
+        "android_client_info": {
+          "package_name": "com.Axxon.unEnding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826956946050-arrc69a1qi578gua99505ei26irdoflj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtX4u_vMM_r92icXDxFpduUyGGazW8U6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826956946050-arrc69a1qi578gua99505ei26irdoflj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 100b7d9714257c847bb189173699876f, type: 3}
+  m_Name: Level 9 Sequence Node
+  m_EditorClassIdentifier: 
+  nodeState: 2
+  childNodes:
+  - {fileID: 11400000, guid: 0ee7fa603ee865c49b0883e156daec17, type: 2}
+  - {fileID: 11400000, guid: 749ba18058faf984d93ca58b7cd7df75, type: 2}
+  - {fileID: 11400000, guid: aaba3d18f7053c64b96ee248e73586ce, type: 2}

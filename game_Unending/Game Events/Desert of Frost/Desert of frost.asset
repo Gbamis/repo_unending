@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543b94875239fde478efa391fc86fc5f, type: 3}
+  m_Name: Desert of frost
+  m_EditorClassIdentifier: 
+  campaingID: 01
+  campaignTitle: Desert of Frost
+  campaignSubTitle: Aliens Ships and Bionics
+  campaignSummary: In a world where Aliens and Bionic technology has melded, lies
+    the  Desert of Frost. It's a snowy land which stretches as far as a Jet can fly.The
+    desert's terrain makes it a place of mystery and danger.
+  campaignBg: {fileID: 21300000, guid: 9ac90baa8f62c374d98765a71bea6e71, type: 3}
+  campaignthumbnail: {fileID: 21300000, guid: d3250c7ee39f59342bb8efe0eaf55b1b, type: 3}
+  isEventLocked: 0
+  weather: {fileID: 4890085278179872738, guid: 8e5978abd51fec44ba24d8aeb6ac4694, type: 2}
+  skyMaterial: {fileID: 2100000, guid: 279c94ccb1d82f243ae17a9a190d7055, type: 2}
+  fogColor: {r: 0.9490196, g: 0.98039216, b: 1, a: 0}
+  fogDensity: 0.004
+  postProcessData: {fileID: 11400000, guid: 2454ede7e4edf4d408d18fef7354d9b6, type: 2}
+  shadowDistance: 50
+  horizontalClamp: 100
+  verticalClamp: {x: -1, y: 30}
