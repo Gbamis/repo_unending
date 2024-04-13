@@ -10,6 +10,7 @@ namespace UE
         private EnemyContext m_context;
         public float health;
         private float currentHealth;
+        private bool IsDead;
 
         public override void Init(EnemyContext context)
         {
@@ -17,6 +18,7 @@ namespace UE
             m_context = context;
             currentHealth = health;
             m_context.healthValue.fillAmount = 1;
+            IsDead = false;
         }
 
         public override NODESTATE Eval() { nodeState = NODESTATE.RUNNING; return nodeState; }
@@ -38,7 +40,7 @@ namespace UE
 
         public override void OnTakeDamage(float damage)
         {
-            if (currentHealth < 0)
+            if (currentHealth <= 0 && !IsDead)
             {
                 nodeState = NODESTATE.FAILED;
                 Destroy(m_context.selfTransform.gameObject);
@@ -47,6 +49,7 @@ namespace UE
                 explode.gameObject.SetActive(true);
                 GameManager.Instance.sfxManager.ExplodeFX();
                 GameManager.Instance.gameEventManager.currentGameEvent.EnemyKilled();
+                IsDead = true;
 
             }
             else

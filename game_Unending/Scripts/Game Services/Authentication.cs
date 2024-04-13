@@ -20,10 +20,10 @@ namespace UE
             await UnityServices.InitializeAsync();
             //PlayerPrefs.SetInt("app_version", 1);
             //SetupEvents();
-            
+
         }
 
-        
+
 
         public bool IsReturningUser() { return AuthenticationService.Instance.SessionTokenExists; }
 
@@ -37,7 +37,18 @@ namespace UE
 
         public bool IsSignedInAlready() { return AuthenticationService.Instance.IsSignedIn; }
 
-        public async void DeleteAccount() { await AuthenticationService.Instance.DeleteAccountAsync(); }
+        public async void DeleteAccount()
+        {
+            try
+            {
+                await AuthenticationService.Instance.DeleteAccountAsync();
+                Debug.Log("account deleted");
+            }
+            catch (System.Exception e)
+            {
+                Debug.Log(e);
+            }
+        }
 
         public void SignOut()
         {

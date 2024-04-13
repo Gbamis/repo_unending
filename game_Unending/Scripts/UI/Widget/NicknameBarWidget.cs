@@ -10,6 +10,7 @@ namespace UE
     {
         [SerializeField] private TMP_Text nicknameTxt;
         [SerializeField] private Button sigOutBtn;
+        [SerializeField] private Button deleteBtn;
 
         private void OnEnable()
         {
@@ -18,6 +19,12 @@ namespace UE
                 InvalidateSavedUser();
                 GameManager.Instance.unityConnectionManager.SignOut();
                 GameManager.Instance.uIManager.ModeSelection.OpenUP();
+            });
+
+            deleteBtn.onClick.AddListener(() =>
+            {
+                InvalidateSavedUser();
+                GameManager.Instance.unityConnectionManager.DeleteAccount();
             });
         }
         public void SetName(string value) { nicknameTxt.text = value; }

@@ -53,8 +53,8 @@ namespace UE
         public CinemachineVirtualCamera cinemachineVirtualCamera;
         public GAMEMODE gameMode;
 
-        [DllImport("__Internal")]
-        private static extern bool IsMobile();
+       // [DllImport("__Internal")]
+        //private static extern bool IsMobile();
 
 
 
@@ -72,7 +72,7 @@ namespace UE
         {
             //isMobile = IsMobileBrowser();
             isMobile = Application.isMobilePlatform;
-            GameObject.Find("[Debug Updater]").SetActive(false);
+            //GameObject.Find("[Debug Updater]").SetActive(false);
         }
         
 

@@ -32,7 +32,7 @@ namespace UE
 
         private void SignUp()
         {
-            nickname = usernameTXT.text.Trim();
+            nickname = usernameTXT.text.Trim().ToLower();
             //pass = passwordTXT.text.Trim();
             pass = "Axoon!@#$%345";
 
