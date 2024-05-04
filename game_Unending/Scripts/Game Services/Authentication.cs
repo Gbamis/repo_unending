@@ -140,7 +140,7 @@ namespace UE
                         displayName = name,
                         enemyKills = (int)le.Score,
                         position = le.Rank,
-                        isSelf = (name == cachedName) ? true : false
+                        isSelf = (name.ToLower() == cachedName.ToLower()) ? true : false
                     });
                 }
 

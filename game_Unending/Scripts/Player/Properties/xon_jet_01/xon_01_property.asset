@@ -18,7 +18,7 @@ MonoBehaviour:
   flightDetails:
     checker: 1
     maxSpeed: 160
-    flySpeed: 446
+    flySpeed: 77.093796
     oldSpeed: 0
     steering: 80
     steerAngle: 25
@@ -36,7 +36,7 @@ MonoBehaviour:
       image: {fileID: 0}
     shield:
       refilRate: 0.3
-      useRate: 0.017
+      useRate: 0.007
       currentAmount: 1
       multiplier: 0
       canUse: 0

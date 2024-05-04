@@ -18,14 +18,14 @@ MonoBehaviour:
   flightDetails:
     checker: 1
     maxSpeed: 180
-    flySpeed: 480
+    flySpeed: 176
     oldSpeed: 0
     steering: 85
     steerAngle: 35
     acceleration: 4
     maxHealth: 120
     isShieldUse: 0
-  weaponDetails: {fileID: 11400000, guid: 75ed75ae4429f654ca14680416d57ec0, type: 2}
+  weaponDetails: {fileID: 11400000, guid: 92b5a147b99a42a449d4a8de967e89cf, type: 2}
   refillDetails:
     nitro:
       refilRate: 0.08
@@ -36,8 +36,8 @@ MonoBehaviour:
       image: {fileID: 0}
     shield:
       refilRate: 0.1
-      useRate: 0.018
-      currentAmount: 0.86924976
+      useRate: 0.002
+      currentAmount: 0.53802043
       multiplier: 0
       canUse: 0
       image: {fileID: 0}

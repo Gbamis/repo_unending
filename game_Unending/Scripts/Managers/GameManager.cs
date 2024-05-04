@@ -72,7 +72,7 @@ namespace UE
         {
             //isMobile = IsMobileBrowser();
             isMobile = Application.isMobilePlatform;
-            //GameObject.Find("[Debug Updater]").SetActive(false);
+            GameObject.Find("[Debug Updater]").SetActive(false);
         }
         
 
